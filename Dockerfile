@@ -1,5 +1,7 @@
 FROM python:buster
 
+USER root
+
 WORKDIR /app
 
 COPY . .
